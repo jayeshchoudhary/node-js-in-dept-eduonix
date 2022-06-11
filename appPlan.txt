@@ -1,0 +1,18 @@
+**\*\***\***\*\*** Welcome to ToDo App **\*\***\***\*\***
+
+-> All the todos
+
+1. Buy Groceries (Done)
+2. Play Football
+3. Coding (Done)
+
+-> Select operation to perform
+
+1. Add ToDo
+   Enter todo title: Wake up early
+2. Mark any todo as completed
+   Enter todo id which you want to mark complete: 1
+3. Quit the app
+
+opps you have entered wrong choice
+please select again
