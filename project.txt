@@ -1,0 +1,42 @@
+This weeks project
+
+Implement a command line calculator app in node.js
+
+Requirements :
+
+1. There should be a menu options displayed where use can select operations
+2. operations to be included are Addition, multiplication, division, subtraction
+3. Ask user to choose between operation then accept two numbers
+4. Calculate the results and output it to user
+5. You should also save the result as a history in a file
+
+Eg. Execution of app
+
+**\*\*** Welcome to Calculator app **\***
+Choose operation to perform
+
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+
+Enter your choice : 2
+
+Enter two numbers
+23
+10
+
+Results
+23 - 10 = 13
+
+Note: You should save every result performed in a file
+so after few operations the file will look like this :
+
+Results.txt
+
+23 - 10 = 13
+10 \* 2 = 20
+11 + 4 = 15
+15 / 5 = 3
+1 + 2 = 3
+...etc

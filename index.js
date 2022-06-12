@@ -91,7 +91,7 @@ async function markTodoDone() {
 
   const todoList = getTodosList();
 
-  if (+todoId < 0 || +todoId > todoList.length) {
+  if (+todoId <= 0 || +todoId > todoList.length) {
     // todoid does not exist
     console.log("Todo id does not exist, retry again\n");
     return markTodoDone();
